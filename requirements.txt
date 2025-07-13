@@ -1,0 +1,2 @@
+markdown==3.8,
+click=8.2,
