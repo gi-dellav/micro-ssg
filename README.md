@@ -2,6 +2,7 @@
 A really small Markdown-based SSG.
 
 In this repository you can find the source code for `micro-ssg` and for `vanilla-cream`, a small CSS theme for improved readability.
+If you want to use `vanilla-cream` you just need to copy `_pages.html` from the theme's `templates` directory to the one in your project.
 
 ## I. Install Dependencies
 
@@ -12,7 +13,7 @@ In this repository you can find the source code for `micro-ssg` and for `vanilla
 `micro_ssg new [NAME]` 
 
 This will create 
-- Site.toml
+- Project.toml
 - `static` directory for files/assets that should always be built with the site (ex. images, videos, JS libraries)
 - `templates` directory for *.HTML templates
 - `pages` directory for *.MD files that uses the `_pages` template.
