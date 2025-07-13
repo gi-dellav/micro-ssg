@@ -9,7 +9,12 @@ A really small Markdown-based SSG
 
 `micro_ssg new [NAME]` 
 
-This will create a Site.toml, a `static` directory for files/assets that should always be built with the site (ex. images, videos, JS libraries), a `templates` directory for *.HTML templates, and a `pages` directory for *.MD files that uses the `_pages` template.
+This will create 
+- Site.toml
+- `static` directory for files/assets that should always be built with the site (ex. images, videos, JS libraries)
+- `templates` directory for *.HTML templates
+- `pages` directory for *.MD files that uses the `_pages` template.
+
 If you want to create new templates, add a `_*.HTML` file in `templates` and create a new directory with the same name for the MD files that will use said template.
 
 ## III. Build Static Files
